@@ -61,6 +61,7 @@ header ul li a {
     height: 1000px;
     text-align: center;
     position: relative;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 
 .jumbotron .display-4 {
@@ -84,4 +85,28 @@ header ul li a {
 .jumbotron h3 {
     color: white;
     font-size: 36;
+}
+
+.smile {
+    font-family: 'montserrat';
+    text-align: center;
+}
+
+.smile img {
+    margin-top: 120px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+.smile h4 {
+    margin-top: 120px;
+}
+
+.smile p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.abu {
+    background-color: rgb(238, 238, 238);
 }
